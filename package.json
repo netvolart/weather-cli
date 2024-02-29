@@ -1,0 +1,21 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI app to get weather",
+  "main": "index.js",
+  "bin": "./index.js",
+  "os": [ "darwin", "linux" ],
+  "engines": {
+    "node": ">14.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Artem Volkov",
+  "license": "ISC"
+}
